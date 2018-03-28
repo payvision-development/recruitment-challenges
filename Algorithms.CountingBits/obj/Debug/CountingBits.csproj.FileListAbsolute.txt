@@ -1,0 +1,5 @@
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits\bin\Debug\CountingBits.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits\bin\Debug\CountingBits.pdb
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits\obj\Debug\CountingBits.csprojResolveAssemblyReference.cache
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits\obj\Debug\CountingBits.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits\obj\Debug\CountingBits.pdb

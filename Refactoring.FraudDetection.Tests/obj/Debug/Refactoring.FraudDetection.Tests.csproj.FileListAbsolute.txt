@@ -1,0 +1,37 @@
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\obj\Debug\Refactoring.FraudDetection.Tests.csprojResolveAssemblyReference.cache
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Files\OneLineFile.txt
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.pdb
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.pdb
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\obj\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\obj\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.pdb
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Files\TwoLines_FraudulentSecond.txt
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.Core.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.pdb
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.xml
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.Core.pdb
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.Core.xml
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Files\ThreeLines_FraudulentSecond.txt
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Files\FourLines_MoreThanOneFraudulent.txt
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Files\FourLines_MoreThanOneFraudulent.txt
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Files\TwoLines_FraudulentSecond.txt
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Files\ThreeLines_FraudulentSecond.txt
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Files\OneLineFile.txt
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.dll
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.pdb
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.Core.dll
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.dll
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.dll
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.pdb
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.pdb
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.xml
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.Core.pdb
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.Core.xml
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\obj\Debug\Refactoring.FraudDetection.Tests.csprojResolveAssemblyReference.cache
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\obj\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.dll
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\obj\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.pdb
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\obj\Debug\Refactoring.FraudDetection.Tests.csproj.CoreCompileInputs.cache

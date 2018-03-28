@@ -1,0 +1,17 @@
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\obj\Debug\Algorithms.CountingBits.Tests.csprojResolveAssemblyReference.cache
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\bin\Debug\Payvision.CodeChallenge.Algorithms.CountingBits.Tests.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\bin\Debug\Payvision.CodeChallenge.Algorithms.CountingBits.Tests.pdb
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\bin\Debug\Payvision.CodeChallenge.Algorithms.CountingBits.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\bin\Debug\Payvision.CodeChallenge.Algorithms.CountingBits.pdb
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\obj\Debug\Payvision.CodeChallenge.Algorithms.CountingBits.Tests.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\obj\Debug\Payvision.CodeChallenge.Algorithms.CountingBits.Tests.pdb
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\bin\Debug\Payvision.CodeChallenge.Algorithms.CountingBits.Tests.dll
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\bin\Debug\Payvision.CodeChallenge.Algorithms.CountingBits.Tests.pdb
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\bin\Debug\Payvision.CodeChallenge.Algorithms.CountingBits.dll
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\bin\Debug\Payvision.CodeChallenge.Algorithms.CountingBits.pdb
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\obj\Debug\Algorithms.CountingBits.Tests.csprojResolveAssemblyReference.cache
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\obj\Debug\Payvision.CodeChallenge.Algorithms.CountingBits.Tests.dll
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\obj\Debug\Payvision.CodeChallenge.Algorithms.CountingBits.Tests.pdb
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits.Tests\obj\Debug\Algorithms.CountingBits.Tests.csproj.CoreCompileInputs.cache

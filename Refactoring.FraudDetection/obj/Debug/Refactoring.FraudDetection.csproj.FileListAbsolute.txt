@@ -1,0 +1,11 @@
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection\obj\Debug\Refactoring.FraudDetection.csprojResolveAssemblyReference.cache
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.pdb
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection\obj\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.dll
+C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection\obj\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.pdb
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.dll
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.pdb
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection\obj\Debug\Refactoring.FraudDetection.csprojResolveAssemblyReference.cache
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection\obj\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.dll
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection\obj\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.pdb
+\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection\obj\Debug\Refactoring.FraudDetection.csproj.CoreCompileInputs.cache
