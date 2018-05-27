@@ -22,7 +22,26 @@
         private void ModifyState(FraudRadar.Order order)
         {
             //Normalize state
-            order.State = order.State.Replace("il", "illinois").Replace("ca", "california").Replace("ny", "new york");
+            var state = order.State;
+            if (string.IsNullOrWhiteSpace(state))
+                return;
+            state = state.ToLower().Trim();
+
+            if (state == "il")
+            {
+                order.State = "illinois";
+                return;
+            }
+            if (state == "ca")
+            {
+                order.State = "california";
+                return;
+            }
+            if (state == "ny")
+            {
+                order.State = "new york";
+                return;
+            }
         }
     }
 }

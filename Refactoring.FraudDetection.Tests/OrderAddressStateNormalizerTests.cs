@@ -6,7 +6,7 @@ namespace Payvision.CodeChallenge.Refactoring.FraudDetection.Tests
     [TestClass]
     public class OrderAddressStateNormalizerTests
     {
-        /*[TestMethod]
+        [TestMethod]
         public void ShouldNormalizeCleanState()
         {
             var normalizer = new OrderAddressStateNormalizer(null);
@@ -17,7 +17,7 @@ namespace Payvision.CodeChallenge.Refactoring.FraudDetection.Tests
             normalizer.Modify(updatedItem);
 
             updatedItem.State.Should().Be("illinois");
-        }*/
+        }
 
         [TestMethod]
         public void ShouldNormalizeDirtyState()
