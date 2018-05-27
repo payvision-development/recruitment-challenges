@@ -10,6 +10,10 @@ namespace Payvision.CodeChallenge.Refactoring.FraudDetection
                 throw new ArgumentException("An order string should not be null or empty.");
 
             var items = order.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+
+            if (items.Length != 8)
+                throw new ArgumentException("The order argument should contain 8 values delimetered by a comma.");
+
             return new FraudRadar.Order
             {
                 OrderId = int.Parse(items[0]),
