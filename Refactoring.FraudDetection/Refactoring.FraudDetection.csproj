@@ -42,6 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FraudRadar.cs" />
+    <Compile Include="Implementations\DefaultFraudCheckProvider.cs" />
+    <Compile Include="Implementations\DefaultNormalizer.cs" />
+    <Compile Include="Implementations\DefaultOrderProcessProvider.cs" />
+    <Compile Include="Interfaces\IFraudCheckProvider.cs" />
+    <Compile Include="Interfaces\INormalizeProvider.cs" />
+    <Compile Include="Interfaces\IOrderProcessProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -6,95 +6,93 @@
 
 namespace Payvision.CodeChallenge.Refactoring.FraudDetection
 {
+    using Payvision.CodeChallenge.Refactoring.FraudDetection.Implementations;
+    using Payvision.CodeChallenge.Refactoring.FraudDetection.Interfaces;
     using System;
     using System.Collections.Generic;
     using System.IO;
-    using System.Text;
+
 
     public class FraudRadar
     {
-        public IEnumerable<FraudResult> Check(string filePath)
+        private readonly IOrderProcessProvider _orderProcessProvider;
+        private readonly IFraudCheckProvider _fraudCheckProvider;
+
+        public FraudRadar()
         {
-            // READ FRAUD LINES
-            var orders = new List<Order>();
-            var fraudResults = new List<FraudResult>();
+            _orderProcessProvider = new DefaultOrderProcessProvider();
+            _fraudCheckProvider = new DefaultFraudCheckProvider();
+        }
 
-            var lines = File.ReadAllLines(filePath);
+        public FraudRadar(IOrderProcessProvider orderProcessProvider, IFraudCheckProvider fraudCheckProvider)
+        {
+            _orderProcessProvider = orderProcessProvider;
+            _fraudCheckProvider = fraudCheckProvider;
+        }
 
-            foreach (var line in lines)
+
+
+        /// I Leave this commented function as a alternative to the memorystream input variant,
+        /// In some scenarios this option would be more optimal
+
+        #region IEnumerable_FraudResult_Check_byte_array_binaryFil)
+
+        //public IEnumerable<FraudResult> Check(byte[] binaryFile)
+        //{
+        //    MemoryStream ms = new MemoryStream(binaryFile);
+        //    StreamReader orderReader = new StreamReader(ms, System.Text.Encoding.UTF8, true);
+        //    List<string> orderLines = new List<string>();
+
+        //    // READ FRAUD LINES FROM MemoryStream
+        //    string line;
+        //    while ((line = orderReader.ReadLine()) != null)
+        //    {
+        //        orderLines.Add(line);
+        //    }
+        //    var orders = _orderProcessProvider.GetOrderList(orderLines.ToArray());
+
+        //    // CHECK FRAUD
+        //    var fraudResults = _fraudCheckProvider.Check(orders);
+
+
+        //    return fraudResults;
+        //}   
+
+        #endregion
+
+        public IEnumerable<FraudResult> Check(MemoryStream fileStream)
+        {
+            StreamReader orderReader = new StreamReader(fileStream, System.Text.Encoding.UTF8, true);
+            List<string> orderLines = new List<string>();
+
+            // READ FRAUD LINES FROM MemoryStream
+            string line;
+            while ((line = orderReader.ReadLine()) != null)
             {
-                var items = line.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
-
-                var order = new Order
-                {
-                    OrderId = int.Parse(items[0]),
-                    DealId = int.Parse(items[1]),
-                    Email = items[2].ToLower(),
-                    Street = items[3].ToLower(),
-                    City = items[4].ToLower(),
-                    State = items[5].ToLower(),
-                    ZipCode = items[6],
-                    CreditCard = items[7]
-                };
-
-                orders.Add(order);
+                orderLines.Add(line);
             }
-
-            // NORMALIZE
-            foreach (var order in orders)
-            {
-                //Normalize email
-                var aux = order.Email.Split(new char[] { '@' }, StringSplitOptions.RemoveEmptyEntries);
-
-                var atIndex = aux[0].IndexOf("+", StringComparison.Ordinal);
-
-                aux[0] = atIndex < 0 ? aux[0].Replace(".", "") : aux[0].Replace(".", "").Remove(atIndex);
-
-                order.Email = string.Join("@", new string[] { aux[0], aux[1] });
-
-                //Normalize street
-                order.Street = order.Street.Replace("st.", "street").Replace("rd.", "road");
-
-                //Normalize state
-                order.State = order.State.Replace("il", "illinois").Replace("ca", "california").Replace("ny", "new york");
-            }
+            var orders = _orderProcessProvider.GetOrderList(orderLines.ToArray());
 
             // CHECK FRAUD
-            for (int i = 0; i < orders.Count; i++)
-            {
-                var current = orders[i];
-                bool isFraudulent = false;
+            var fraudResults = _fraudCheckProvider.Check(orders);
 
-                for (int j = i + 1; j < orders.Count; j++)
-                {
-                    isFraudulent = false;
 
-                    if (current.DealId == orders[j].DealId
-                        && current.Email == orders[j].Email
-                        && current.CreditCard != orders[j].CreditCard)
-                    {
-                        isFraudulent = true;
-                    }
+            return fraudResults;
 
-                    if (current.DealId == orders[j].DealId
-                        && current.State == orders[j].State
-                        && current.ZipCode == orders[j].ZipCode
-                        && current.Street == orders[j].Street
-                        && current.City == orders[j].City
-                        && current.CreditCard != orders[j].CreditCard)
-                    {
-                        isFraudulent = true;
-                    }
+        }
+        
+        public IEnumerable<FraudResult> Check(string filePath)
+        {
 
-                    if (isFraudulent)
-                    {
-                        fraudResults.Add(new FraudResult { IsFraudulent = true, OrderId = orders[j].OrderId });
-                    }
-                }
-            }
+            // READ FRAUD LINES
+            var orders = _orderProcessProvider.GetOrderList(File.ReadAllLines(filePath));
+
+            // CHECK FRAUD
+            var fraudResults = _fraudCheckProvider.Check(orders);
 
             return fraudResults;
         }
+
 
         public class FraudResult
         {
@@ -121,5 +119,6 @@ namespace Payvision.CodeChallenge.Refactoring.FraudDetection
 
             public string CreditCard { get; set; }
         }
+
     }
 }
