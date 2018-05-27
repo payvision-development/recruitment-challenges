@@ -66,7 +66,7 @@ namespace Payvision.CodeChallenge.Refactoring.FraudDetection.Tests
         {
             var fraudRadar = new FraudRadar();
             var fileReader = new OrderFileReader(filePath, new CsvRecordOrderParser(),
-                new OrderNormalizer());
+                OrderNormalizer.Default);
             return fraudRadar.Check(fileReader.ReadAll()).ToList();
         }
     }

@@ -79,6 +79,9 @@
   </Choose>
   <ItemGroup>
     <Compile Include="FraudRadarTests.cs" />
+    <Compile Include="EmailNormalizerTests.cs" />
+    <Compile Include="OrderAddressStateNormalizerTests.cs" />
+    <Compile Include="StreetNormalizerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OrderNormalizerTests.cs" />
     <Compile Include="OrderExtensionsTests.cs" />

@@ -9,7 +9,7 @@ namespace Payvision.CodeChallenge.Refactoring.FraudDetection.Tests
         [TestMethod]
         public void ShouldNormalizeCleanEmail()
         {
-            var normalizer = new OrderNormalizer();
+            var normalizer = OrderNormalizer.Default;
             var updatedItem = new FraudRadar.Order
             {
                 Email = "bugs@bunny.com",
@@ -24,7 +24,7 @@ namespace Payvision.CodeChallenge.Refactoring.FraudDetection.Tests
         [TestMethod]
         public void ShouldNormalizeDirtyEmail()
         {
-            var normalizer = new OrderNormalizer();
+            var normalizer = OrderNormalizer.Default;
             var updatedItem = new FraudRadar.Order
             {
                 Email = "bugs+elmer.fudd@bunny.com",
@@ -39,7 +39,7 @@ namespace Payvision.CodeChallenge.Refactoring.FraudDetection.Tests
         [TestMethod]
         public void ShouldNormalizeDirtyStreet()
         {
-            var normalizer = new OrderNormalizer();
+            var normalizer = OrderNormalizer.Default;
             var updatedItem = new FraudRadar.Order
             {
                 Email = "bugs+elmer.fudd@bunny.com",
@@ -54,7 +54,7 @@ namespace Payvision.CodeChallenge.Refactoring.FraudDetection.Tests
         [TestMethod]
         public void ShouldNormalizeDirtyRoad()
         {
-            var normalizer = new OrderNormalizer();
+            var normalizer = OrderNormalizer.Default;
             var updatedItem = new FraudRadar.Order
             {
                 Email = "bugs+elmer.fudd@bunny.com",

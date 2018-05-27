@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CsvRecordOrderParser.cs" />
+    <Compile Include="OrderAddressStateNormalizer.cs" />
+    <Compile Include="StreetNormalizer.cs" />
+    <Compile Include="EmailNormalizer.cs" />
     <Compile Include="FraudRadar.cs" />
     <Compile Include="IOrderModifier.cs" />
     <Compile Include="IOrderParser.cs" />
