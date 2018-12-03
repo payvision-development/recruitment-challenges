@@ -1,6 +1,6 @@
 # Test Automation Engineer - Rendering transactions
 
-As a payment gateway, Payvision offers multiple APIs to process payments and credits (also known as transactions). In this challenge, you will be in charge of creating a **testing plan**. Use the technology and/or frameworks that make you feel comfortable. Don't hesitate to contact us if you have any questions regarding this challenge.
+As a payment gateway, Payvision offers multiple APIs to process payments and credits (also known as transactions). In this challenge, you will be in charge of creating a **testing plan**. Use the technology and/or framework that you feel most comfortable with in order to create an **automated testing plan**. Don't hesitate to contact us if you have any questions regarding this challenge.
 
 ## Challenge details
 Here you have the requirements that you have to cover.
