@@ -35,7 +35,6 @@ This endpoint should be called with `GET` and accept filters.
 | ---           |   ---             |
 | `action`      | `payment`, `credit`
 | `currencyCode` | `EUR`, `JPY`, `USD` |
-| `orderBy`     | `date`, `-date`   |
 
 Here you have some examples:
 ```
