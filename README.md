@@ -22,7 +22,7 @@ We have our favourites. Anyway, you can choose your own stack :)
 
 **Frontend:** Angular, Vue
 
-**Backend:** Node
+**Backend:** .NET, Node
 
 We are lazy and we will not install anything, does Docker ring a bell?
 
