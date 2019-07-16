@@ -73,7 +73,7 @@ This endpoint should be called with `GET` and accept filters.
 
 Here you have some examples:
 ```
-https://jovs5zmau3.execute-api.eu-west-1.amazonaws.com/prod/transactions?currency=EUR
-https://jovs5zmau3.execute-api.eu-west-1.amazonaws.com/prod/transactions?action=refund
-https://jovs5zmau3.execute-api.eu-west-1.amazonaws.com/prod/transactions?action=charge&currency=USD
+https://jovs5zmau3.execute-api.eu-west-1.amazonaws.com/prod/transactions?currencyCode=EUR
+https://jovs5zmau3.execute-api.eu-west-1.amazonaws.com/prod/transactions?action=payment
+https://jovs5zmau3.execute-api.eu-west-1.amazonaws.com/prod/transactions?action=credit&currencyCode=USD
 ```
