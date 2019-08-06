@@ -1,10 +1,8 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="BitCounter.cs" company="Payvision">
-//     Payvision Copyright © 2017
+﻿// <copyright file="PositiveBitCounter.cs" company="Payvision">
+// Copyright (c) Payvision. All rights reserved.
 // </copyright>
-// -----------------------------------------------------------------------
 
-namespace Payvision.CodeChallenge.Algorithms.CountingBits
+namespace Algorithms.CountingBits
 {
     using System;
     using System.Collections.Generic;

@@ -1,15 +1,12 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="FraudRadar.cs" company="Payvision">
-//     Payvision Copyright © 2017
+﻿// <copyright file="FraudRadar.cs" company="Payvision">
+// Copyright (c) Payvision. All rights reserved.
 // </copyright>
-// -----------------------------------------------------------------------
 
-namespace Payvision.CodeChallenge.Refactoring.FraudDetection
+namespace Refactoring.FraudDetection
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
-    using System.Text;
 
     public class FraudRadar
     {
