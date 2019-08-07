@@ -1,6 +1,0 @@
-\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits\bin\Release\Payvision.CodeChallenge.Algorithms.CountingBits.dll
-\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits\bin\Release\Payvision.CodeChallenge.Algorithms.CountingBits.pdb
-\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits\obj\Release\Payvision.CodeChallenge.Algorithms.CountingBits.dll
-\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits\obj\Release\Payvision.CodeChallenge.Algorithms.CountingBits.pdb
-\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits\obj\Release\Algorithms.CountingBits.csproj.CoreCompileInputs.cache
-\\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Algorithms.CountingBits\obj\Release\Algorithms.CountingBits.csprojResolveAssemblyReference.cache

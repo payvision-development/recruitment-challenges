@@ -1,16 +1,13 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="PositiveBitCounterTest.cs" company="Payvision">
-//     Payvision Copyright © 2017
+﻿// <copyright file="PositiveBitCounterTest.cs" company="Payvision">
+// Copyright (c) Payvision. All rights reserved.
 // </copyright>
-// -----------------------------------------------------------------------
 
-namespace CountingBits.Tests
+namespace Algorithms.CountingBits.Tests
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using Payvision.CodeChallenge.Algorithms.CountingBits;
 
     [TestClass]
     public class PositiveBitCounterTest

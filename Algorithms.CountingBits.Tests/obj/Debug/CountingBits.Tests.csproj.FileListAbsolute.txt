@@ -1,8 +1,0 @@
-C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits.Tests\bin\Debug\CountingBits.Tests.dll
-C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits.Tests\bin\Debug\CountingBits.Tests.pdb
-C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits.Tests\bin\Debug\CountingBits.dll
-C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits.Tests\bin\Debug\CountingBits.pdb
-C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits.Tests\obj\Debug\CountingBits.Tests.csprojResolveAssemblyReference.cache
-C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits.Tests\obj\Debug\CountingBits.Tests.dll
-C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\CountingBits.Tests\obj\Debug\CountingBits.Tests.pdb
