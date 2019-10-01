@@ -4,7 +4,7 @@
   "description": "Payvision challenge (JavaScript): Refactoring - Fraud detection",
   "main": "index.js",
   "scripts": {
-    "test": "mocha FraudRadar.test.js",
+    "test": "mocha tests/FraudRadar.test.js",
     "lint": "eslint ."
   },
   "author": "Diego T. <d.torres@payvision.com>",

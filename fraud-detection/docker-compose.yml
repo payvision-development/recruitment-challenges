@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  test_runner:
+    build:
+      context: .
+      dockerfile: Dockerfile
