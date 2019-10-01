@@ -8,4 +8,3 @@ module.exports = function addressFraudRule (current, order) {
     current.creditCard !== order.creditCard
   )
 }
-

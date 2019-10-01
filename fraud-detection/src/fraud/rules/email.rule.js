@@ -5,4 +5,3 @@ module.exports = function emailFraudRule (current, order) {
     current.creditCard !== order.creditCard
   )
 }
-
