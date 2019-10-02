@@ -26,6 +26,11 @@ function state (state) {
 
 const normalizers = {state, street, email, num, lowercase}
 
+/**
+ * Applies a list of normalizations to a value
+ * @param {*} value value to be normalized
+ * @param {*} pipe array of normalizer function names to be applied sequencially
+ */
 function applyNormalizationPipe (value, pipe) {
   if (!Array.isArray(pipe)) {
     throw new Error('Column map normalizationPipe must be an array')
