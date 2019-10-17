@@ -40,10 +40,16 @@ You are invited to use your creativity in any exercise. You can get bonus points
 
 In this exercise you are required to complete the code of a RESTful API game to manage Game of Thrones players and actions using CRUD operations. Http methods, response codes and headers should be chosen carefully.
 
+See details: [Black Castle API](https://github.com/payvision-development/recruitment-challenges/blob/frontend-engineer-junior/1.BlackCastle/readme.md)
+
 ## 2. Calculator web application
 
 You are provided with a Payvision Calculator legacy web application base code. You have to review the code, implement a new functionalities, reconsider UI/UX, and adding new features.
 
+See details: [Calculator](https://github.com/payvision-development/recruitment-challenges/blob/frontend-engineer-junior/2.Calculator/readme.md)
+
 ## 3. Transactions Processor
 
 In this exercise you will have to use your best OOP, SOLID and functional Javascript knowledge to create a transaction processor engine for Payvision.
+
+See details: [Transactions Processor](https://github.com/payvision-development/recruitment-challenges/blob/frontend-engineer-junior/3.TransactionProcessor/readme.md)
