@@ -1,16 +1,45 @@
-# Hi there! Welcome to Payvision Recruitment Challenges
-First of all, thank to be interested in Payvision. If you are here, could be for only two reasons. **First**, you are in the middle of the hiring process and you have to resolve the challenge. **Second**, you love coding. In both cases, we want to here more about you. 
+# Payvision frontend recruitment challenge
 
-## Ground Rules
+Welcome to Payvision frontend coding challenge! To pass this test, you must complete the following three exercises.
 
-We prefer well-thought-out solutions over the quick-and-dirty kind. So take your time, if you need it. A rushed job is usually matched by a swift rejection. Average completion time so far has been around one week. Submission is done via e-mail sending it to [jobs.spain@payvision.com](mailto:jobs.spain@payvision.com)
+1. Black Castle API
+2. Calculator
+3. Transactions Processor
 
-## Challenges
-Below, you will find the link to the different challenges. Each of them are a different brach, so clone the repository, choose the branch that you want and resolve it. Good luck!
+**Extra mile**: If you provide a clear, neat and consistent git history and readme markdown file for each exercise you will get extra points.
 
-* [Software Engineer / .NET](https://github.com/payvision-development/recruitment-challenges/tree/software-engineer-dotnet)
-* [Software Engineer / JS](https://github.com/payvision-development/recruitment-challenges/tree/software-engineer-js)
-* [Frontend Software Engineer](https://github.com/payvision-development/recruitment-challenges/tree/frontend-engineer)
-* [Fullstack Software Engineer](https://github.com/payvision-development/recruitment-challenges/tree/fullstack-engineer)
-* [Test Automation Engineer](https://github.com/payvision-development/recruitment-challenges/tree/qa-engineer)
- 
+**Each exercise provided with a readme file with all required instructions.**
+
+Read carefully and do not hesitate to contact Payvision in case of problems or questions. Feel free to use your own criteria for technical decisions and do not forget to justify your motivations.
+
+Take your time and do your best.
+
+Good luck!
+
+Questions: [jobs.spain@payvision.com](mailto:jobs.spain@payvision.com).
+
+## 0. Extra mile
+
+As a Payvision software developer, this would be part of your daily tasks. We would like to see your communication skills in practice.
+
+**Bonus**: a good use of English and commit message convention will get you extra points.
+
+### Git-flow
+
+- Initialise each exercise as a git project. Feel free to create your own branches, track your progress, commit message convention... We recommend to follow git-flow branches structure.
+
+### Documentation
+
+- Write a clear, readable, developer-friendly readme file for each exercise with all details you consider helpful for the code reviewer.
+
+## 1. Black Castle API
+
+In this exercise you are required to complete the code of a RESTful API to manage users CRUD operations. Http methods, response codes and headers should be chosen carefully.
+
+## 2. Calculator web application
+
+You are provided with a calculator web application base code. You have to review the code, implement a new layout using a given css and adding new features.
+
+## 3. Transactions Processor
+
+Rewrite the code given using map/reduce javascript operations.
