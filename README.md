@@ -1,16 +1,18 @@
 # Hi there! Welcome to Payvision Recruitment Challenges
-First of all, thank to be interested in Payvision. If you are here, could be for only two reasons. **First**, you are in the middle of the hiring process and you have to resolve the challenge. **Second**, you love coding. In both cases, we want to here more about you. 
+
+First of all, thank to be interested in Payvision. If you are here, could be for only two reasons. **First**, you are in the middle of the hiring process and you have to resolve the challenge. **Second**, you love coding. In both cases, we want to here more about you.
 
 ## Ground Rules
 
 We prefer well-thought-out solutions over the quick-and-dirty kind. So take your time, if you need it. A rushed job is usually matched by a swift rejection. Average completion time so far has been around one week. Submission is done via e-mail sending it to [jobs.spain@payvision.com](mailto:jobs.spain@payvision.com)
 
 ## Challenges
+
 Below, you will find the link to the different challenges. Each of them are a different brach, so clone the repository, choose the branch that you want and resolve it. Good luck!
 
-* [Software Engineer / .NET](https://github.com/payvision-development/recruitment-challenges/tree/software-engineer-dotnet)
-* [Software Engineer / JS](https://github.com/payvision-development/recruitment-challenges/tree/software-engineer-js)
-* [Frontend Software Engineer](https://github.com/payvision-development/recruitment-challenges/tree/frontend-engineer)
-* [Fullstack Software Engineer](https://github.com/payvision-development/recruitment-challenges/tree/fullstack-engineer)
-* [Test Automation Engineer](https://github.com/payvision-development/recruitment-challenges/tree/qa-engineer)
- 
+- [Software Engineer / .NET](https://github.com/payvision-development/recruitment-challenges/tree/software-engineer-dotnet)
+- [Software Engineer / JS](https://github.com/payvision-development/recruitment-challenges/tree/software-engineer-js)
+- [Frontend Software Engineer Junior](https://github.com/payvision-development/recruitment-challenges/tree/frontend-engineer-junior)
+- [Frontend Software Engineer](https://github.com/payvision-development/recruitment-challenges/tree/frontend-engineer)
+- [Fullstack Software Engineer](https://github.com/payvision-development/recruitment-challenges/tree/fullstack-engineer)
+- [Test Automation Engineer](https://github.com/payvision-development/recruitment-challenges/tree/qa-engineer)
