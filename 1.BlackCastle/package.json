@@ -1,0 +1,21 @@
+{
+  "name": "@payvision/frontend-nightswatch-rest",
+  "version": "1.0.0",
+  "description": "Code challenge for frontend vacancy at Payvision. REST API exercise.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "test"
+  },
+  "author": "Payvision",
+  "license": "ISC",
+  "dependencies": {
+    "consola": "^2.10.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-junit": "^6.4.0",
+    "nodemon": "^1.11.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@payvision/frontend-nightswatch-mapreduce",
+  "version": "1.0.0",
+  "description": "Code challenge for frontend vacancy at Payvision. REST API exercise. Map-Reduce exercise",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "author": "Payvision",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
