@@ -18,7 +18,7 @@ You can use app.js file to play with TransactionProcessor class.
 
 ### Valid operations
 
-Here you can find all array [operations](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array#)
+Here you can find all array [operations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 The following operations are **forbidden**:
 
