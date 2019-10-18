@@ -1,19 +1,21 @@
 # REST API implementation
 
-This is a Game of Thrones inspired REST API game. You are responsible to create the eng
+This is a Game of Thrones inspired REST API game. You are responsible to create the engine of the game.
 
 ## Your tasks
 
-1. Complete commented endpoints from api.js file with the most suitable code for a player management CRUD RESTful API.
-2. Write some tests for your code.
-3. Answer all commented questions you finde in the code.
-4. Add basic authentication to /api path.
+1. Implement the endpoints in **./src/api.js** file with the most suitable code for players and objects management REST API. You will find detailed instructions in this file.
+2. Write some tests for your code. Use test folder for this purpose.
+3. Answer all commented questions you find in the code.
 
-**Bonus:** include a postman collection in utils folder to test the app.
+**Bonus:**
+
+1. Include a postman collection in utils folder to test the app.
+2. Add basic authentication to /api path.
 
 ## How to run the application using a local server
 
-Run the following command in your terminal from project root path:
+To run the project, open a terminal and execute the following command from project root path:
 
 Install dependencies
 

@@ -38,7 +38,7 @@ A valid transaction must have:
 
 ## How to set up the project
 
-Run the following command in your terminal from project root path:
+To run the project, open a terminal and execute the following command from project root path:
 
 - Install dependencies
 

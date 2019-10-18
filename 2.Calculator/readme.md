@@ -51,7 +51,7 @@ Feel free to do any changes. Show what you are capable to!
 
 ## How to run the application using local server
 
-Use the following command to setup this project:
+To run the project, open a terminal and execute the following command from project root path:
 
 - Install depencencies:
 
