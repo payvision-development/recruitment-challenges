@@ -8,7 +8,7 @@ const players = [
   { id: 3, name: "Daenerys Targaryen", age: 20, health: 100, bag: [3] },
   { id: 4, name: "Samwell Tarly", age: 18, health: 100, bag: [4] }
 ];
-const object = [
+const objects = [
   { id: 1, name: "spoon", value: -1 },
   { id: 2, name: "knife", value: -10 },
   { id: 3, name: "sword", value: -20 },
@@ -17,7 +17,7 @@ const object = [
 
 // EXAMPLE ENDPOINT: LIST ALL OBJECTS
 api.get("/objects", function(req, res) {
-  res.json(object);
+  res.json(objects);
 });
 
 module.exports = api;
