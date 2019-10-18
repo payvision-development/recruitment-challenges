@@ -1,13 +1,12 @@
-# Excercise 3: Functional javascript
+# Transactions Processor
 
-We want to develop a new transactions processor to complete online payments. **TransactionProcessor.js** file contains the code scaffolding of our new payments engine.
+We want to develop a new transactions processor library to complete online payments. **TransactionProcessor.js** file contains the code scaffolding of our new payments engine.
 
 ## Your tasks
 
 - Have a look to the code. Do you miss any class?
-- Complete TransactionProcessor.js class.
-- Make sure all tests pass.
-- Would you include more tests?
+- Complete **./src/TransactionProcessor.js** class.
+- Make sure all tests pass. Would you include more tests?
 - Do you know the pattern used by TransactionProcessor class?
 
 We strongly recommend the use of: map, filter and reduce (among others).
