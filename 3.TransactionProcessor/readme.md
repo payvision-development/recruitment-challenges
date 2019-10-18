@@ -24,7 +24,6 @@ The following operations are **forbidden**:
 - for
 - foreach
 - while
-- no functional loops
 
 ### Valid transactions
 
