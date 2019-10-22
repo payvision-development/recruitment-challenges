@@ -2,7 +2,7 @@
 
 Welcome to Payvision frontend coding challenge! To pass this test, you must complete the following exercises.
 
-1. Black Castle API
+1. Castle Black API
 2. Calculator
 3. Transactions Processor
 
@@ -36,11 +36,11 @@ A good use of English and commit message convention will get you extra points.
 
 You are invited to use your creativity in any exercise. You can get bonus points if you implement extra functionality.
 
-## 1. Black Castle API
+## 1. Castle Black API
 
 In this exercise you are required to complete the code of a RESTful API game to manage Game of Thrones players and actions using CRUD operations. Http methods, response codes and headers should be chosen carefully.
 
-See details: [Black Castle API](https://github.com/payvision-development/recruitment-challenges/tree/frontend-engineer-junior/1.BlackCastle)
+See details: [Castle Black API](https://github.com/payvision-development/recruitment-challenges/tree/frontend-engineer-junior/1.CastleBlack)
 
 ## 2. Calculator web application
 
