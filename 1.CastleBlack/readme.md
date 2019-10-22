@@ -28,7 +28,7 @@ You have to create endpoints (as many as you consider) to support the following 
 2. Add basic authentication to /api path.
 3. Implement attack player endpoint: one player attacks another player using an object from its bag. Adjust health accordingly
 4. Implement steal bag from player endpoint: one player steals everything from another player. Bag objects are moved from one player to another.
-5. Implement resurect player endpoint: bring back to live a dead player using its id.
+5. Implement resurrect player endpoint: bring back to life a dead player using its id.
 6. Implement use object endpoint: a player use an object against another player or itself.
 7. Are you having fun? You are free to extend the game with new functionality.
    YOUR OWN METHOD: ...
