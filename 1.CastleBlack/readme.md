@@ -31,7 +31,6 @@ You have to create endpoints (as many as you consider) to support the following 
 5. Implement resurrect player endpoint: bring back to life a dead player using its id.
 6. Implement use object endpoint: a player use an object against another player or itself.
 7. Are you having fun? You are free to extend the game with new functionality.
-   YOUR OWN METHOD: ...
 
 ## Game Rules
 
