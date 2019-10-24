@@ -12,6 +12,10 @@ In this exercise you are given the legacy code of Payvision Calculator web app. 
 
 You are allowed to change as much code as you consider.
 
+**Bonus:**
+
+1. Configure the application to allow use of keyboard numpad.
+
 ### 1. Code review
 
 Are you a good code reviewer? This would be one of your daily basis tasks.
