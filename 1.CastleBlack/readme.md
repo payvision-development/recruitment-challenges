@@ -26,11 +26,12 @@ You have to create endpoints (as many as you consider) to support the following 
 
 1. Include a postman collection in utils folder to test the app.
 2. Add basic authentication to /api path.
-3. Implement attack player endpoint: one player attacks another player using an object from its bag. Adjust health accordingly
-4. Implement steal bag from player endpoint: one player steals everything from another player. Bag objects are moved from one player to another.
-5. Implement resurrect player endpoint: bring back to life a dead player using its id.
-6. Implement use object endpoint: a player use an object against another player or itself.
-7. Are you having fun? You are free to extend the game with new functionality.
+3. Implement pick up item endpoint: one player add to its bag one item that doesn't belong to any other player.
+4. Implement attack player endpoint: one player attacks another player using an object from its bag. Adjust health accordingly
+5. Implement steal bag from player endpoint: one player steals everything from another player. Bag objects are moved from one player to another.
+6. Implement resurrect player endpoint: bring back to life a dead player using its id.
+7. Implement use object endpoint: a player use an object against another player or itself.
+8. Are you having fun? You are free to extend the game with new functionality.
 
 ## Game Rules
 
