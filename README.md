@@ -12,7 +12,7 @@ Below, you will find the link to the different challenges. Each of them are a di
 
 - [Software Engineer / .NET](https://github.com/payvision-development/recruitment-challenges/tree/software-engineer-dotnet)
 - [Software Engineer / JS](https://github.com/payvision-development/recruitment-challenges/tree/software-engineer-js)
-- [Frontend Software Engineer Junior](https://github.com/payvision-development/recruitment-challenges/tree/frontend-engineer-junior)
 - [Frontend Software Engineer](https://github.com/payvision-development/recruitment-challenges/tree/frontend-engineer)
-- [Fullstack Software Engineer](https://github.com/payvision-development/recruitment-challenges/tree/fullstack-engineer)
+- [Fullstack Software Engineer Medior](https://github.com/payvision-development/recruitment-challenges/tree/fullstack-engineer-medior)
+- [Fullstack Software Engineer Senior](https://github.com/payvision-development/recruitment-challenges/tree/fullstack-engineer)
 - [Test Automation Engineer](https://github.com/payvision-development/recruitment-challenges/tree/qa-engineer)
