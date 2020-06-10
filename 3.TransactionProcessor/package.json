@@ -1,7 +1,7 @@
 {
-  "name": "@payvision/frontend-nightswatch-mapreduce",
+  "name": "@payvision/fullstack-nightswatch-mapreduce",
   "version": "1.0.0",
-  "description": "Code challenge for frontend vacancy at Payvision. REST API exercise. Map-Reduce exercise",
+  "description": "Code challenge for fullstack vacancy at Payvision. REST API exercise. Map-Reduce exercise",
   "main": "app.js",
   "directories": {
     "test": "test"

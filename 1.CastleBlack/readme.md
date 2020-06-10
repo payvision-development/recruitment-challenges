@@ -63,11 +63,11 @@ A local server will start on port 8080.
 
 Build the image:
 
-> docker build -t <your username>/payvision-frontend-castleblack .
+> docker build -t <your username>/payvision-fullstack-castleblack .
 
 Run the image on localhost port 8081:
 
-> docker run -p 8081:8080 -d <your username>/payvision-frontend-castleblack
+> docker run -p 8081:8080 -d <your username>/payvision-fullstack-castleblack
 
 Enter the container:
 

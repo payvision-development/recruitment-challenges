@@ -1,7 +1,7 @@
 {
-  "name": "@payvision/frontend-nightswatch-rest",
+  "name": "@payvision/fullstack-nightswatch-rest",
   "version": "1.0.0",
-  "description": "Code challenge for frontend vacancy at Payvision. REST API exercise.",
+  "description": "Code challenge for fullstack vacancy at Payvision. REST API exercise.",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",

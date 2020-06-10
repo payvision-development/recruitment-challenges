@@ -1,7 +1,7 @@
 {
-  "name": "@payvision/frontend-nightswatch-calculator",
+  "name": "@payvision/fullstack-nightswatch-calculator",
   "version": "1.2.2",
-  "description": "Code challenge for frontend vacancy at Payvision. REST API exercise. Code review exercise",
+  "description": "Code challenge for fullstack vacancy at Payvision. REST API exercise. Code review exercise",
   "scripts": {
     "serve": "http-server -p 8082 -o http://localhost:8082/src/index.html"
   },
