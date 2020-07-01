@@ -2,7 +2,7 @@
 
 First of all, thank to be interested in Payvision. If you are here, could be for only two reasons. **First**, you are in the middle of the hiring process and you have to resolve the challenge. **Second**, you love coding. In both cases, we want to here more about you.
 
-![payvision-office-8](https://user-images.githubusercontent.com/1283613/86239353-6bbd8c80-bb9f-11ea-90be-5a1ddba70559.jpg)
+![payvision-office-7](https://user-images.githubusercontent.com/1283613/86239527-c8b94280-bb9f-11ea-94d0-e4fee7bc6642.jpg)
 
 ## Ground Rules
 
