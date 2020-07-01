@@ -1,4 +1,4 @@
-# Hi there! Welcome to Payvision Recruitment Challenges
+# Hi there! Welcome to Payvision Recruitment Challenges 
 
 First of all, thank to be interested in Payvision. If you are here, could be for only two reasons. **First**, you are in the middle of the hiring process and you have to resolve the challenge. **Second**, you love coding. In both cases, we want to here more about you.
 
@@ -8,7 +8,7 @@ We prefer well-thought-out solutions over the quick-and-dirty kind. So take your
 
 ## Challenges
 
-Below, you will find the link to the different challenges. Each of them are a different brach, so clone the repository, choose the branch that you want and resolve it. Good luck!
+Below, you will find the link to the different challenges. Each of them are a different brach, so clone the repository, choose the branch that you want and resolve it. Enjoy and Good luck!
 
 - [Software Engineer / .NET](https://github.com/payvision-development/recruitment-challenges/tree/software-engineer-dotnet)
 - [Software Engineer / JS](https://github.com/payvision-development/recruitment-challenges/tree/software-engineer-js)
