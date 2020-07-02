@@ -1,6 +1,6 @@
 {
   "name": "counting-bits",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Payvision recruiting challenge: Counting Bits",
   "main": "index.js",
   "scripts": {
