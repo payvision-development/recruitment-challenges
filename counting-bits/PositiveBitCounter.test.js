@@ -11,20 +11,20 @@ describe('PositiveBitCounter', function () {
   })
 
   it('Should return zero occurrences for input = 0', function () {
-    const expected = [0]
-    const actual = PositiveBitCounter.Count(0)
+    let expected = [0]
+    let actual = PositiveBitCounter.Count(0)
     assert.deepEqual(actual, expected)
   })
 
   it('Should return the expected count for input = 1', function () {
-    const expected = [1, 0]
-    const actual = PositiveBitCounter.Count(1)
+    let expected = [1, 0]
+    let actual = PositiveBitCounter.Count(1)
     assert.deepEqual(actual, expected)
   })
 
   it('Should return the expected count for input = 161', function () {
-    const expected = [3, 0, 5, 7]
-    const actual = PositiveBitCounter.Count(161)
+    let expected = [3, 0, 5, 7]
+    let actual = PositiveBitCounter.Count(161)
     assert.deepEqual(actual, expected)
   })
 })
