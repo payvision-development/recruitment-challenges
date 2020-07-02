@@ -3,7 +3,19 @@
 Here you have the challenge for the software engineer position. You can find in this branch two different challenges, an algorithm one another one to see how you can refactor a dirty code. If you think that you can solve it using some design patters, feel free and apply them. Let's go! :sunglasses:
 
 
-# 1- Counting bits
+# 1- Refactoring fraud detection
+Refactor the FraudRadar class. You can make any changes you see that are needed in code or tests. See the tests for more information.
+
+### Code **Requirements**:
+* All the tests must pass.
+* The code must fulfil <mark>**OOP**</mark> and <mark>**SOLID**</mark> principles.
+* The code must be **maintainable**.
+* The code must be **extensible**.
+* You must apply **defensive programming** practices.
+* Receiving the file path is not nice. Think about it and change the signature, let's make it cooler.
+
+
+# 2- Counting bits
 Given an integer, n, we want to know the following:
 1. How many 1-bits are in its binary representation?
 2. Let's say n's binary representation has k significant bits indexed from 1 to k. What are the respective positions (i.e., in ascending order) of each 1-bit?
@@ -35,15 +47,3 @@ Reverse the binary representation.
 Count number of positive bits: 3
 Search the position: 0, 5, 7
 Return { 3, 0, 5, 7 }
-
-
-# 2- Refactoring fraud detection
-Refactor the FraudRadar class. You can make any changes you see that are needed in code or tests. See the tests for more information.
-
-### Code Requirements:
-* All the tests must pass.
-* The code should fulfil **OOP** and **SOLID** principles.
-* The code should be maintainable.
-* The code should be extensible.
-* You should apply defensive programming practices.
-* Receive the file path is not nice. Think and change the signature and make it cooler.
