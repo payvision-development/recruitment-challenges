@@ -4,7 +4,7 @@
   "description": "Payvision recruiting challenge: Counting Bits",
   "main": "index.js",
   "scripts": {
-    "test": "mocha PositiveBitCounter.test.js",
+    "test": "jest PositiveBitCounter.test.js",
     "lint": "eslint ."
   },
   "author": "Diego T. <d.torres@payvision.com>",
@@ -16,7 +16,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "mocha": "^8.0.1",
+    "jest": "^26.1.0",
     "standard": "^14.3.4"
   }
 }
