@@ -9,7 +9,7 @@ namespace Algorithms.CountingBits.Tests
     using System.Linq;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    #region BeforeTest
+
     [TestClass]
     public class PositiveBitCounterTest
     {
@@ -50,5 +50,5 @@ namespace Algorithms.CountingBits.Tests
         }
   
     }
-    #endregion
+ 
 }
