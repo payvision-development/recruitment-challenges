@@ -1,7 +1,7 @@
 ## Payvision Recruitment Challenges - Software Engineer / .NET
 
 ## Intro
-Threre are two challenges
+There are two challenges
   
 
 
@@ -13,7 +13,7 @@ Threre are two challenges
 
 	- Following the requirements, I have done the below changes;
 	1) Class FraudResult and Orders should be alone, if you follow the SOLID principles, these classes shouldn't belong to  FraudRadar class for the Single Ony Responsability principle. Apart from make the code more maintainable and extensible. For this reason, 
-	I have change on the Test project, the funtion signature of ExecuteTest. 
+	I have change on the Test project, the function signature of ExecuteTest. 
 	2) I have created a new test to throw an exception If the input file doesn't exist. 
 	
 	
