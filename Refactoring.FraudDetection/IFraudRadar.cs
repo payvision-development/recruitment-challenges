@@ -8,6 +8,6 @@ namespace Refactoring.FraudDetection
 {
     public interface IFraudRadar
     {
-        IEnumerable<FraudResult> Check();
+        IEnumerable<FraudResult> Check(IEnumerable<Order> orders);
     }
 }

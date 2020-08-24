@@ -10,6 +10,11 @@ namespace Refactoring.FraudDetection
             public int OrderId { get; set; }
 
             public bool IsFraudulent { get; set; }
+            public FraudResult(int OrderId, bool IsFraudulent)
+            {
+                     this.OrderId = OrderId;
+                     this.IsFraudulent = IsFraudulent;
+            }
         }
 
 }

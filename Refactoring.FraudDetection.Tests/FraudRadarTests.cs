@@ -2,12 +2,12 @@
 // Copyright (c) Payvision. All rights reserved.
 // </copyright>
 
+using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Refactoring.FraudDetection.Tests
 {
@@ -63,13 +63,18 @@ namespace Refactoring.FraudDetection.Tests
 
         public void InputFileDoentExist_ArgumentExceptionExpected()
         {
-            Assert.ThrowsException<FileNotFoundException>(()=>ExecuteTest(Path.Combine(Environment.CurrentDirectory, "Files", "InputFileDoesntExist.txt")));
-         }
+            Assert.ThrowsException<FileNotFoundException>(() => ExecuteTest(Path.Combine(Environment.CurrentDirectory, "Files", "InputFileDoesntExist.txt")));
+        }
+
         private static List<FraudResult> ExecuteTest(string filePath)
         {
-            var fraudRadar = new FraudRadar(filePath);
+            var normalizeService = new NormalizeService();
+            var orderService = new OrderService(normalizeService, filePath);
+            var checkService = new CheckFraudSevice();
+            var orders = orderService.LoadOdersFromFile(filePath);
+            var fraudRadar = new FraudRadar(checkService);
 
-            return fraudRadar.Check().ToList();
+            return fraudRadar.Check(orders).ToList();
         }
     }
 }
