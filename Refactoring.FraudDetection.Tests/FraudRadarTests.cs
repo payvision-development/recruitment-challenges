@@ -2,12 +2,12 @@
 // Copyright (c) Payvision. All rights reserved.
 // </copyright>
 
+using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Refactoring.FraudDetection.Tests
 {
@@ -50,6 +50,7 @@ namespace Refactoring.FraudDetection.Tests
 
         [TestMethod]
         [DeploymentItem("./Files/FourLines_MoreThanOneFraudulent.txt", "Files")]
+
         public void CheckFraud_FourLines_MoreThanOneFraudulent()
         {
             var result = ExecuteTest(Path.Combine(Environment.CurrentDirectory, "Files", "FourLines_MoreThanOneFraudulent.txt"));
@@ -57,12 +58,23 @@ namespace Refactoring.FraudDetection.Tests
             result.Should().NotBeNull("The result should not be null.");
             result.Should().HaveCount(2, "The result should contains the number of lines of the file");
         }
+        [TestMethod]
+        [DeploymentItem("./Files/InputFileDoesntExist.txt", "Files")]
 
-        private static List<FraudRadar.FraudResult> ExecuteTest(string filePath)
+        public void InputFileDoentExist_ArgumentExceptionExpected()
         {
-            var fraudRadar = new FraudRadar();
+            Assert.ThrowsException<FileNotFoundException>(() => ExecuteTest(Path.Combine(Environment.CurrentDirectory, "Files", "InputFileDoesntExist.txt")));
+        }
 
-            return fraudRadar.Check(filePath).ToList();
+        private static List<FraudResult> ExecuteTest(string filePath)
+        {
+            var normalizeService = new NormalizeService();
+            var orderService = new OrderService(normalizeService, filePath);
+            var checkService = new CheckFraudSevice();
+            var orders = orderService.LoadOdersFromFile(filePath);
+            var fraudRadar = new FraudRadar(checkService);
+
+            return fraudRadar.Check(orders).ToList();
         }
     }
 }

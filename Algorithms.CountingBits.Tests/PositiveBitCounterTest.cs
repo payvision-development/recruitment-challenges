@@ -9,6 +9,7 @@ namespace Algorithms.CountingBits.Tests
     using System.Linq;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
+
     [TestClass]
     public class PositiveBitCounterTest
     {
@@ -47,5 +48,7 @@ namespace Algorithms.CountingBits.Tests
                 actual: this.bitCounter.Count(161).ToList(),
                 message: "The result is not the expected");
         }
+  
     }
+ 
 }
